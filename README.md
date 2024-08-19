@@ -21,7 +21,7 @@ conda env create -f environment.yml
 This project allows you to use the Sequence to Point network, enabling you to prepare datasets from commonly used sources in NILM, train the network, and test it. The target appliances considered are kettle, microwave, fridge, dishwasher, and washing machine.
 
 Directory tree:
-
+```bash
 Deep-Learning-Based-Classification-of-Households-for-Domestic-Consumption-Balancing/
 ├── appliance_data.py
 ├── data_feeder.py
