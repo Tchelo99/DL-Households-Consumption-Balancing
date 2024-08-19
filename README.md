@@ -46,7 +46,7 @@ Deep-Learning-Based-Classification-of-Households-for-Domestic-Consumption-Balanc
 ├── seq2point_train.py
 ├── test_main.py
 └── train_main.py
-
+```bash
 ## How to Run the Code
 
 To use the code:
