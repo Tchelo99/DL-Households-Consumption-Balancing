@@ -12,7 +12,9 @@ Seq2point learning is flexible, allowing you to choose any architecture, includi
 
 * To set up the environment for running this project, you need to create a virtual environment using Python 3.5-3.8. The required libraries, such as TensorFlow and Keras, are specified in the environment.yml file. To create the environment, simply run:
 
+```bash
 conda env create -f environment.yml
+```
 
 * GPU support is highly recommended for training the models due to the computationally intensive nature of deep learning tasks. Ensure that your system is equipped with a compatible GPU and the necessary drivers.
 
@@ -46,7 +48,7 @@ Deep-Learning-Based-Classification-of-Households-for-Domestic-Consumption-Balanc
 ├── seq2point_train.py
 ├── test_main.py
 └── train_main.py
-```bash
+```
 ## How to Run the Code
 
 To use the code:
