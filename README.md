@@ -18,7 +18,7 @@ conda env create -f environment.yml
 
 * GPU support is highly recommended for training the models due to the computationally intensive nature of deep learning tasks. Ensure that your system is equipped with a compatible GPU and the necessary drivers.
 
-* Directory Tree
+## Directory Tree
 
 This project allows you to use the Sequence to Point network, enabling you to prepare datasets from commonly used sources in NILM, train the network, and test it. The target appliances considered are kettle, microwave, fridge, dishwasher, and washing machine.
 
@@ -53,10 +53,7 @@ Deep-Learning-Based-Classification-of-Households-for-Domestic-Consumption-Balanc
 
 To use the code:
 
-* Prepare the Dataset: You can create your dataset using REFIT, UK-DALE, or REDD data. Download the raw data from the original sources:
-
-** REFIT dataset
-** UK-DALE dataset
+* Prepare the Dataset: You can create your dataset using REFIT, UK-DALE, or REDD data. Download the raw data from the original sources
 
 * Train the Model: Run the train_main.py script to start training the seq2point model. Adjust parameters in the script as needed.
 
